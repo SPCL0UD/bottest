@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 load_dotenv()
 
-DISCORD_WEBHOOK_URL = os.getenv('MTMwOTU0NTU2Nzg3MzAwNzY0Ng.GDjVVq.G9tKUPqvtQg6agbQVtba5wlOgknKvsuljNigss')
+DISCORD_WEBHOOK_URL = os.getenv('MTMwOTU0NTU2Nzg3MzAwNzY0Ng.GgNtVe.l3r-GSNMAjsvPNmbzxMsilDggs043Yb-CZ35YA')
 
 @app.route('/')
 def home():
